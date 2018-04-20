@@ -54,7 +54,7 @@ localhost:3000/issue/<bookId> (as a delete request for returning book )  <br>
  ```
  # Schema Model Detail
  
- #####View of Book Schema 
+ ##### View of Book Schema 
 ```
 const bookSchema = mongoose.Schema({
     _id: mongoose.Schema.Types.ObjectId,
@@ -66,7 +66,7 @@ const bookSchema = mongoose.Schema({
     
 });
 
-
+```
 ##### View of IssueSchema
 
 ```const issueSchema = new mongoose.Schema({
